@@ -47,8 +47,8 @@
   color: white;
   border-radius: 5px;
   box-sizing: border-box;
-  -webkit-appearance: none;
-  appearance: none;
+  -webkit-appearance: none; /* removes Safari's default input styling */
+  appearance: none;/* removes default styling in other browsers */
 }
 
 .login-container button {
